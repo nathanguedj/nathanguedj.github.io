@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Nathan Guedj</title>
+        <meta name="description" content="Nathan Guedj, marketing digital et data."/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+              integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script async src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+                crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="styles/styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+              crossorigin="anonymous"/>
+        <script async src="scripts/scripts.js"></script>
+        <link rel="icon" type="image/png" href="images/profil.png"/>
+    </head>
+    <body>
+        <div id="header" class="d-flex align-items-center w-100">
+            <div class="container">
+                <div class="row w-100">
+                    <div class="col-12 col-md d-flex justify-content-center flex-column">
+                        <div id="title">
+                            <h1>Nathan Guedj</h1>
+                            <p>06/01/2000</p>
+                            <h2>Marketing digital et data</h2>
+                        </div>
+                    </div>
+                    <div id="main_image" class="col-12 col-md-auto text-center mt-5 mt-md-0">
+                        <img src="images/profil.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="scroll-btn">
+            <button class="btn-icon-rounded" onclick="window.location.href='#exp'">
+                <i class="fa-solid fa-arrow-down"></i>
+            </button>
+        </div>
+        <div id="content">
+            <section id="exp">
+                <div class="container">
+                    <h2>Expériences professionnelles</h2>
+                    <div class="row">
+                        <div class=" col-12 col-md-auto text-center mb-4 mb-md-0">
+                            <img src="images/onlypro.png" alt="">
+                        </div>
+                        <div class="col-12 col-md">
+                            <h3> Stratégie Réseaux Sociaux artiste Alonzo - <span>Only Pro</span></h3>
+                            <p>1 février Fin Mai 2022</p>
+                            <ul>
+                                <li>Stratégie sur tous les réseaux sociaux de l’artiste avec une direction artistique définie
+                                    pour la sortie de son album fin mai 2022
+                                </li>
+                                <li>Mise en relation et stratégie avec les médias externes pour la promotion de l’album</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="order-md-1 col-12 col-md-auto text-center mb-4 mb-md-0">
+                            <img src="images/gan.png" alt="">
+                        </div>
+                        <div class="col-12 col-md">
+                            <h3>Chef de projet marketing digital et data - <span>Gan Assurances</span></h3>
+                            <p>Septembre 2021 à aujourd'hui</p>
+                            <ul>
+                                <li>Entretien et développement du site Gan.fr</li>
+                                <li>Mise en place de formations pour les agences Gan</li>
+                                <li>SEO/SEA</li>
+                                <li>Analyse des axes d'améliorations avec Semrush/Adobe Analytics pour Gan.fr</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="hr sm"></div>
+                    <div class="row">
+                        <div class="col-12 col-md-auto text-center mb-4 mb-md-0">
+                            <img src="images/raplume.png" alt="">
+                        </div>
+                        <div class="col-12 col-md">
+                            <h3>Community Manager (Freelance) - <span>Raplume</span></h3>
+                            <p>Septembre 2019 à aujourd'hui</p>
+                            <ul>
+                                <li>Rédaction d'articles, gestion de la communcauté Instagram et TikTok (partage de contenu,
+                                    création
+                                    d'expérience interactive)
+                                </li>
+                                <li>
+                                    Veille sur les nouveautés de la musique urbaine
+                                </li>
+                                <li>Gestion des partenariats avec des artistes (publicité payante sur nos réseaux de
+                                    communication)
+                                </li>
+                                <li>Création/rédaction de vidéos Youtube</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="hr sm"></div>
+                    <div class="row">
+                        <div class="order-md-1 col-12 col-md-auto text-center mb-4 mb-md-0">
+                            <img src="images/ricoh.png" alt="">
+                        </div>
+                        <div class="col-12 col-md">
+                            <h3>Assistant marketing digital - <span>Ricoh</span></h3>
+                            <p>Septembre 2018 à Août 2021</p>
+                            <ul>
+                                <li>
+                                    Commercial sédentaire : prospection téléphonique sur le catalogue de produit au téléphone
+                                    (BtoB)
+                                </li>
+                                <li>
+                                    Marketing : études concurrentielles, aide à la construction du marketing de l'offre pour des
+                                    nouvelles offres
+                                </li>
+                                <li>Dispositif d'activation : gestion des campagnes d'emailing</li>
+                                <li>Mise en place d'un CRM open source au service des équipes de commerciaux sédentaires</li>
+                                <li>
+                                    Projet "Short Rental Ricoh France" (location court durée d'imprimante) :
+                                    <ul>
+                                        <li>Refonte du contrat</li>
+                                        <li>Étude de marché</li>
+                                        <li>Création d'un site dédié sur Wordpress</li>
+                                        <li>Appui à la gestion de référencement naturel (SEO)</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="hr sm"></div>
+                    <div class="row">
+                        <div class="col-12 col-md-auto text-center mb-4 mb-md-0">
+                            <img src="images/orcca.png" alt="">
+                        </div>
+                        <div class="col-12 col-md">
+                            <h3>Cofondateur/Charge de communication - <span>Orcca</span></h3>
+                            <p>Septembre 2017 à septembre 2018</p>
+                            <ul>
+                                <li>Création du logo de la marque</li>
+                                <li>Animation de la marque sur les réseaux sociaux (Facebook et Instagram)</li>
+                                <li>Mise en place d'un système de transaction bancaire sur les réseaux sociaux</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="hr sm"></div>
+                    <div class="row">
+                        <div class="order-md-1 col-12 col-md-auto text-center mb-4 mb-md-0">
+
+                        </div>
+                        <div class="col-12 col-md">
+                            <div class="col">
+                                <h3>Projet tutore creation site web - <span>TPE</span></h3>
+                                <p>Novembre 2016 à mars 2017</p>
+                                <p>Sujet TPE : Apple, prouesse technologique ou Marketing</p>
+                                <ul>
+                                    <li>Développement du site internet : Wordpress, paramétrage de la base de données, gestion
+                                        de
+                                        contenu,
+                                        graphisme et design
+                                    </li>
+                                    <li>Enquêtes utilisateurs sur les réseaux sociaux et en physique (100 personnes)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="hr"></div>
+            <section id="formations">
+                <div class="container">
+                    <h2>Formations</h2>
+                    <div class="row">
+                        <h3>Double master marketing digital et data analytics</h3>
+                        <p>Ecole de management Léonard de Vinci - <span class="secondary">alternance</span></p>
+                        <p>2021 à 2023</p>
+                    </div>
+                    <div class="hr sm"></div>
+                    <div class="row">
+                        <h3>Bachelor Marketing</h3>
+                        <p>PPA Business School- <span class="secondary">alternance</span></p>
+                        <p>2018 à 2021</p>
+                    </div>
+                    <div class="hr sm"></div>
+                    <div class="row">
+                        <h3>Baccalauréat économique et social</h3>
+                        <p>Lycée d'arsonval</p>
+                        <p>2018</p>
+                    </div>
+                </div>
+            </section>
+            <div class="hr"></div>
+            <section>
+                <div class="container">
+                    <h2>Compétences professionnelles</h2>
+                    <div class="row">
+                        <div class="col-md-6 col-12 mb-4">
+                            Wordpress
+                            <div class="levelbar">
+                                <div length="60"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12 mb-4">
+                            Word, Excel, Power Point
+                            <div class="levelbar">
+                                <div length="80"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12 mb-4">
+                            Adobe Photoshop, Illustrator, InDesign
+                            <div class="levelbar">
+                                <div length="90"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12 mb-4">
+                            Réseaux sociaux
+                            <div class="levelbar">
+                                <div length="85"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12 mb-4">
+                            Anglais
+                            <div class="levelbar">
+                                <div length="70"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12 mb-4">
+                            Espagnol
+                            <div class="levelbar">
+                                <div length="40"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer class="d-flex flex-column">
+                <h2>Nathan Guedj</h2>
+                <a href="/files/cv.pdf" target="_blank">Télécharger mon CV</a>
+                <a href="mailto:nguedjpro@gmail.com">nguedjpro@gmail.com</a>
+                <a href="tel:0675203408">06 75 20 34 08</a>
+                <a href="https://linkedin.com/in/nathanguedj/" class="icon"><i class="fa-brands fa-linkedin"></i></a>
+            </footer>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,225 @@
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkgrey;
+}
+
+#title, #main_image {
+    transition-duration: 100ms;
+}
+
+* {
+    color: white;
+}
+
+::selection {
+    background-color: rgba(233, 113, 65, 0.63);
+}
+
+html, body {
+    background-color: black;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+html::-webkit-scrollbar, body::-webkit-scrollbar {
+    display: none;
+}
+
+h1, h2 {
+    color: white;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 4rem;
+    }
+
+    h2 {
+        font-size: 3.5rem;
+    }
+}
+
+#content {
+    padding-top: 20px;
+    z-index: 5;
+    position: relative;
+    top: 100vh;
+    background-color: black;
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    padding: 5vw;
+    z-index: 1;
+}
+
+#header #title {
+    width: fit-content;
+}
+
+#header img {
+    box-shadow: 1px 1px black;
+    border-radius: 400px;
+    max-width: 350px;
+    width: 50vw;
+    aspect-ratio: 1/1;
+}
+
+#header .container {
+    max-width: 1600px;
+}
+
+#exp .container > div {
+    padding: 25px;
+}
+
+#exp .container > div img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+    max-width: 200px;
+}
+
+#exp .container > div > div {
+    color: white;
+}
+
+#exp .container > div > div h3 {
+    color: white;
+}
+
+#exp .container > div > div h3 span {
+    color: #e97141;
+}
+
+section {
+    background-color: black;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 10vh 5vw;
+    border-top: 1px solid #3d1d6d;
+    margin-top: 5vh;
+}
+
+footer > .icon {
+    font-size: 3rem;
+}
+
+footer > .icon:hover {
+    color: white;
+}
+
+.hr {
+    margin: 30px 20%;
+    height: 2px;
+    width: 60%;
+    background-color: #3d1d6d;
+    border-radius: 10px;
+    padding: 0 !important;
+}
+
+.hr.sm {
+    margin: 30px 40%;
+    height: 1px;
+    width: 20%;
+    background-color: white;
+}
+
+.levelbar {
+    margin-top: 5px;
+    background-color: darkgrey;
+    border-radius: 10px;
+}
+
+.levelbar > div {
+    transition: 5s;
+    height: 10px;
+    background-color: #e97141;
+    border-radius: 10px;
+    width: 0;
+}
+
+.btn-icon-rounded {
+    background-color: white;
+    border: none;
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+    border: none;
+}
+
+#scroll-btn {
+    position: fixed;
+    top: 90%;
+    text-align: center;
+    width: 100%;
+    z-index: 3;
+}
+
+#scroll-btn > button {
+    position: relative;
+}
+
+#scroll-btn > button:after {
+    content: "";
+    position: absolute;
+    top: -5%;
+    left: -5%;
+    width: 110%;
+    height: 110%;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.42);
+    transform: scale(0);
+    transition: 0.6s cubic-bezier(0.32, 0.94, 0.6, 1);
+    z-index: 3;
+}
+
+#scroll-btn > button .fa-solid {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 4;
+    color: black;
+}
+
+#scroll-btn > button:hover {
+    box-shadow: 0 0 15px -3px black;
+}
+
+#scroll-btn > button:hover:after {
+    background-color: #e97141;
+    transform: scale(1);
+    transition: 0.3s cubic-bezier(0.32, 0.94, 0.6, 1);
+}
+
+#scroll-btn > button:hover .fa-solid {
+    color: white;
+}
+
+#formations span {
+    color: #e97141;
+}
+
+#formations .container > div {
+    padding: 25px;
+}
